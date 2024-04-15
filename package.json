@@ -1,0 +1,35 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "A full stack website where users can create a profile, make posts, and interact with other users",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VZachary13/bookish-pancake.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VZachary13/bookish-pancake/issues"
+  },
+  "homepage": "https://github.com/VZachary13/bookish-pancake#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-generator": "^4.16.1",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.9.4",
+    "sequelize": "^6.37.3"
+  }
+}
